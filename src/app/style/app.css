@@ -1,0 +1,140 @@
+
+#app{
+	height: 100%;
+	width: 100%;
+}
+
+.ui.vertical.left.labeled.thin.icon.menu.sidebar{
+	width : 90px;
+}
+
+
+.ui.feed.inverted.segment > .event > .content .extra {
+    margin: 0.5em 0em 0em;
+    background: none;
+    padding: 0em;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.ui.feed.inverted.segment > .event > .content > .summary {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ui.feed.inverted.segment > .event > .content > .summary > .date {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ui.feed.inverted.segment  > .event > .content .meta a,
+.ui.feed.inverted.segment  > .event > .content .meta > .icon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ui.feed.inverted.segment > .event > .content .meta .like:hover .icon {
+  color: #4183C4;
+}
+
+.ui.feed.inverted.segment.blueicon > .event > .content .meta .like:hover .icon {
+  color: #4183C4;
+}
+
+.ui.feed.inverted.segment.redicon > .event > .content .meta .like:hover .icon {
+  color: #FF2733;
+}
+
+.ui.feed.inverted.segment.orangeicon > .event > .content .meta .like:hover .icon {
+  color: #F2711C;
+}
+
+.ui.feed.inverted.segment.yellowicon > .event > .content .meta .like:hover .icon {
+  color: #FBBD08;
+}
+
+.ui.feed.inverted.segment.oliveicon > .event > .content .meta .like:hover .icon {
+  color: #B5CC18;
+}
+
+.ui.feed.inverted.segment.tealicon > .event > .content .meta .like:hover .icon {
+  color: #00B5AD;
+}
+
+.ui.feed.inverted.segment.violeticon > .event > .content .meta .like:hover .icon {
+  color: #6435C9;
+}
+
+.ui.feed.inverted.segment.purpleicon > .event > .content .meta .like:hover .icon {
+  color: #A333C8;
+}
+
+.ui.feed.inverted.segment.pinkicon > .event > .content .meta .like:hover .icon {
+  color: #E03997;
+}
+
+.ui.feed.inverted.segment.brownicon .hover > .event > .content .meta .like:hover .icon {
+  color: #A5673F;
+}
+
+.ui.feed.inverted.segment.greenicon> .event > .content .meta .like:hover .icon {
+  color: #21BA45;
+}
+
+.ui.feed.inverted.segment.greyicon .hover > .event > .content .meta .like:hover .icon {
+  color: #767676;
+}
+
+
+.ui.horizontal.list:not(.celled) > .item.pad.first:first-child {
+    margin-left: 1em !important;
+}
+
+
+.fa{
+  font-family: "FontAwesome" !important;
+}
+
+.ui.visible.thin.left.labeled.icon.sidebar ~ .fixed,
+.ui.visible.thin.left.labeled.icon.sidebar ~ .pusher {
+  -webkit-transform: translate3d(90px, 0px, 0);
+  transform: translate3d(90px, 0px, 0);
+  margin-right: 7em;
+}
+
+.ui.mail.avatar.image {
+    width: 60px;
+    height: auto;
+    font-size: 0.65714286rem;
+}
+
+.scroll-y.auto{
+    overflow-y: auto !important;
+}
+
+.ui.mail{
+    margin-right: 18.43em !important;
+    margin-left: 0.1em;
+}
+
+.ui.pusher.very.wide.content{
+  margin-right: 34em !important;
+  margin-left: 1em !important;
+}
+
+.ui.visible.thin.left.sidebar ~ .fixed, 
+.ui.visible.thin.left.sidebar ~ .pusher {
+    -webkit-transform: translate3d(150px, 0, 0);
+    transform: translate3d(150px, 0, 0);
+    margin-right: 11em;
+}
+
+
+.ui.vertical.menu .item > i.simple.left.icon {
+    width: 1.18em;
+    margin: 0em 1em 0em 0em;
+    float: left;
+}
+
+.ui.vertical.menu .item > i.simple.right.icon {
+    width: 1.18em;
+    margin: 0em 1em 0em 0em;
+    float: right;
+}
+
